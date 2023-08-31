@@ -18,17 +18,7 @@ const GetStarted = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
-        variants={imgVariants('left')}
-        className={`flex-1 ${styles.flexCenter}`}
-      >
-        <img
-          src="/get-started.png"
-          alt="get-started"
-          className="w-[100%] h-[100%] rounded-xl object-contain"
-        />
-      </motion.div>
-      <motion.div
-        variants={fadeIn('left', 'tween', 0.2, 1)}
+        variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| Built out of frustration" />
@@ -41,6 +31,16 @@ const GetStarted = () => (
             <StartSteps key={feature} text={feature} />
           ))}
         </div>
+      </motion.div>
+      <motion.div
+        variants={imgVariants('right')}
+        className={`flex-1 ${styles.flexCenter}`}
+      >
+        <img
+          src="/get-started.png"
+          alt="get-started"
+          className="w-[100%] h-[100%] rounded-xl object-contain"
+        />
       </motion.div>
     </motion.div>
   </section>

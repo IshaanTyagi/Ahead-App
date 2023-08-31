@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar/Navbar';
 import About from '@/components/About/About';
+import Explore from '@/components/Explore/Explore';
 import Hero from '@/components/Hero/Hero';
 import GetStarted from '@/components/GetStarted/GetStarted';
 import WhatsNew from '@/components/WhatsNew/WhatsNew';
@@ -10,12 +11,13 @@ import OpenVac from '@/components/OpenVac/OpenVac';
 import Footer from '@/components/Footer/Footer';
 
 const Page = () => (
-  <div className="bg-white overflow-hidden">
+  <div className="bg-white w-screen overflow-hidden">
     <Navbar />
     <Hero />
     <div className="relative">
       <About />
       <div className="gradient-03 z-0"></div>
+      <Explore />
     </div>
     <div className="relative">
       <GetStarted />
@@ -24,11 +26,14 @@ const Page = () => (
     </div>
     <div className="relative">
       <Insights />
-      <Team />
       <div className="gradient-04 z-0"></div>
-      <Work />
+      <Team />
     </div>
-    <OpenVac />
+    <Work />
+    <div className="relative">
+      <div className="gradient-04 z-0"></div>
+      <OpenVac />
+    </div>
     <Footer />
   </div>
 );

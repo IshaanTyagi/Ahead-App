@@ -10,7 +10,7 @@ const Footer = () => (
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-8 relative h-[40vh]`}
+    className={`${styles.xPaddings} py-8 relative h-[60vh]`}
   >
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
@@ -46,7 +46,7 @@ const Footer = () => (
             <img
               src="/app-store.svg"
               alt="app store redirect"
-              className="w-32 h-32 object-contain cursor-pointer"
+              className="w-32 h-32 object-contain cursor-pointer z-10"
             />
           </div>
         </div>

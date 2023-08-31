@@ -49,8 +49,8 @@ const Feedback = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="relative flex-1 flex justify-center items-center"
       >
-        <div className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px] border-[1px] border-[#6A6A6A]">
-          <div className=" flex flex-wrap justify-center gap-[20px] h-[inherit] items-center content-center">
+        <div className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px] border-[1px] border-[#6A6A6A] overflow-scroll ">
+          <div className=" flex flex-wrap justify-center gap-[20px] h-[inherit] items-center">
             {workContent.map((feature) => (
               <WorkCards key={feature.title} {...feature} />
             ))}

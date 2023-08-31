@@ -4,7 +4,7 @@ const WorkCards = ({ title, bgColor, subtitle }) => {
   };
   return (
     <div
-      className="flex-1 flex flex-col sm:max-w-[26rem] min-w-[20rem] rounded-2xl p-8"
+      className="flex-1 flex flex-col sm:max-w-[26rem] min-w-[20rem] rounded-[40px] p-8"
       style={styles}
     >
       <h1 className="mt-[26px] font-bold text-[24px] leading-[30.24px] text-black z-10">

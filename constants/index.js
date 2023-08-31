@@ -2,37 +2,47 @@ export const exploreContent = [
   {
     id: 'con-1',
     imgUrl: '/explore-01.svg',
+    bgColor: '#d29fa8',
     emoji: '/emoji-1.png',
     title: 'You Argue With Colleague',
-    para: 'You get angry and defensive, instead of staying open and working towards common ground.',
+    subtitle:
+      'You get angry and defensive, instead of staying open and working towards common ground.',
   },
   {
     id: 'con-2',
     imgUrl: '/explore-02.svg',
+    bgColor: '#603fe9',
     title: 'You get a Promotion at the work',
     emoji: '/emoji-2.png',
-    para: "You question yourself and wonder when they'll realize you're an unqualified imposter, instead of trusting yourself & your abilities.",
+    subtitle:
+      "You question yourself and wonder when they'll realize you're an unqualified imposter, instead of trusting yourself & your abilities.",
   },
   {
     id: 'con-3',
     imgUrl: '/explore-03.svg',
+    bgColor: '#449771',
     title: 'You hit dead end in a negotiation',
     emoji: '/emoji-3.png',
-    para: 'You get nervous, frazzled, and frustrated, instead of staying optimistic and solution-oriented.',
+    subtitle:
+      'You get nervous, frazzled, and frustrated, instead of staying optimistic and solution-oriented.',
   },
   {
     id: 'con-4',
     imgUrl: '/explore-04.svg',
+    bgColor: '#ffefd5',
     title: 'You attend a class reunion',
     emoji: '/emoji-4.png',
-    para: "You compare yourself with your peers' achievements, instead of making your self-judgement more independent of others.",
+    subtitle:
+      "You compare yourself with your peers' achievements, instead of making your self-judgement more independent of others.",
   },
   {
     id: 'con-5',
     imgUrl: '/explore-05.svg',
+    bgColor: '#d8f2fe',
     title: 'You are at a lively dinner party',
     emoji: '/emoji-5.png',
-    para: 'You play on your phone, instead of confidently approaching strangers and striking up a chat.',
+    subtitle:
+      'You play on your phone, instead of confidently approaching strangers and striking up a chat.',
   },
 ];
 
@@ -103,4 +113,25 @@ export const workContent = [
 
 export const teamContent = [
   `"We won't share your answers with anyone (and won't ever tell you which friends said what about you)"`,
+];
+
+export const openVacancies = [
+  {
+    title: 'Senior Full-Stack Engineer',
+    li1: 'Full-time position',
+    li2: 'Berlin or remote',
+    li3: '$65-85k, 0.5-1.50% equity share options',
+  },
+  {
+    title: 'Senior Designer',
+    li1: 'Full-time position',
+    li2: 'Berlin or remote',
+    li3: '$40-55k, 0.25-0.50% equity share options',
+  },
+  {
+    title: 'Superstar Intern',
+    li1: 'Full-time position',
+    li2: 'Berlin or remote',
+    li3: '$20-24k, 0.5-1.50% equity share options',
+  },
 ];

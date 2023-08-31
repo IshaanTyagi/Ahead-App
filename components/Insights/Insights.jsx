@@ -8,39 +8,42 @@ import { TypingText } from '../common/CustomTexts';
 
 const Insights = () => (
   <section
-    className={`${styles.yPaddings} sm:pl-0 pl-0 w-screen h-screen flex justify-center align-middle items-center`}
+    className={`${styles.yPaddings} sm:pl-0 pl-0 w-screen h-screen flex justify-center align-middle items-center z-10`}
   >
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto`}
+      className={`${styles.innerWidth} mx-auto flex justify-around flex-col flex-wrap`}
     >
       <TypingText title="| Insights" textStyles="text-center" />
-      <div className="flex justify-between items-center flex-row relative z-10 mt-16 content-center">
+      <div className="mt-4 flex justify-center items-center flex-row relative z-10 flex-wrap">
         <div className="items-center relative z-10">
           <motion.h1
             variants={fadeIn('up', 'tween', 0.2, 1)}
-            className="text-4xl font-extrabold w-[24rem] text-left"
+            className="text-4xl font-extrabold w-[22rem] text-left"
           >
             Be the best you <br />
             with EQ
           </motion.h1>
         </div>
-        <motion.p
-          variants={fadeIn('up', 'tween', 0.2, 1)}
-          className="mt-[8px] font-normal sm:text-[25px] text-[20px] text-left text-primary-black w-[24rem]"
-        >
-          Not having your own emotions under control might be holding you back.
-        </motion.p>
-        <motion.p
-          variants={fadeIn('up', 'tween', 0.2, 1)}
-          className="mt-[8px] font-normal sm:text-[25px] text-[20px] text-left text-primary-black w-[24rem]"
-        >
-          Additionally, not understanding those of others stops vou from being
-          parent, friend you can be.
-        </motion.p>
+        <div className="items-center relative z-10 flex flex-col md:flex-row">
+          <motion.p
+            variants={fadeIn('up', 'tween', 0.2, 1)}
+            className="mt-[8px] font-normal sm:text-[20px] text-[15px] text-left text-primary-black w-[20rem]"
+          >
+            Not having your own emotions under control might be holding you
+            back.
+          </motion.p>
+          <motion.p
+            variants={fadeIn('up', 'tween', 0.2, 1)}
+            className="mt-[8px] font-normal sm:text-[20px] text-[15px] text-left text-primary-black w-[20rem]"
+          >
+            Additionally, not understanding those of others stops vou from being
+            parent, friend you can be.
+          </motion.p>
+        </div>
       </div>
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}
