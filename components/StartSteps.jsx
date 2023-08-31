@@ -1,3 +1,5 @@
+'use client';
+
 import styles from '../styles';
 
 const StartSteps = ({ text }) => (

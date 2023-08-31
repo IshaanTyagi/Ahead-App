@@ -1,6 +1,13 @@
 /* eslint-disable react/self-closing-comp */
 import { Navbar } from '../components';
-import { About, GetStarted, Hero, WhatsNew, Insights } from '../sections';
+import {
+  About,
+  GetStarted,
+  Hero,
+  WhatsNew,
+  Insights,
+  OpenVac,
+} from '../sections';
 
 const Page = () => (
   <div className="bg-white overflow-hidden">
@@ -16,6 +23,7 @@ const Page = () => (
       <WhatsNew />
     </div>
     <Insights />
+    <OpenVac />
   </div>
 );
 

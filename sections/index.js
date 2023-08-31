@@ -4,5 +4,6 @@ import Explore from './Explore';
 import GetStarted from './GetStarted';
 import WhatsNew from './WhatsNew';
 import Insights from './Insights';
+import OpenVac from './OpenVac';
 
-export { Hero, About, Explore, GetStarted, WhatsNew, Insights };
+export { Hero, About, Explore, GetStarted, WhatsNew, Insights, OpenVac };
