@@ -1,6 +1,6 @@
 /* eslint-disable react/self-closing-comp */
 import { Navbar } from '../components';
-import { About, GetStarted, Hero, WhatsNew } from '../sections';
+import { About, GetStarted, Hero, WhatsNew, Insights } from '../sections';
 
 const Page = () => (
   <div className="bg-white overflow-hidden">
@@ -15,6 +15,7 @@ const Page = () => (
       <div className="gradient-04 z-0"></div>
       <WhatsNew />
     </div>
+    <Insights />
   </div>
 );
 
