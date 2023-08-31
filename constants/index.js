@@ -73,3 +73,30 @@ export const newFeatures = [
       'We make sure your energy from all the content you consume does not fizzle out.',
   },
 ];
+
+export const workContent = [
+  {
+    title: 'Power through, even when the going gets tough',
+    bgColor: '#ffefd5',
+    subtitle:
+      'We help you spot and work around whatever stands in the way, be it bad habits, fears, etc.',
+  },
+  {
+    title: 'Learn more about who you are and where you want to go',
+    bgColor: '#d8f2fe',
+    subtitle:
+      'We ask the right questions to help you better understand why you do things the way you do.',
+  },
+  {
+    title: 'Play and grow together with others on the same journey',
+    bgColor: '#d8f2fe',
+    subtitle:
+      'Ahead feels like a game, not like a chore. See yourself grow every day towards achieving your goals!',
+  },
+  {
+    title: 'Master how to make it happen in real life',
+    bgColor: '#ffefd5',
+    subtitle:
+      'We support you towards ninja-level skills with sleek tools such as dry-runs, quizzes, and flashcards.',
+  },
+];

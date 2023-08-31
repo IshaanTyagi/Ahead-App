@@ -20,9 +20,7 @@ const About = () => (
   //           lives. They tend to be happier and have healthier relationships.
   //         </motion.p>
   //       </div>
-  <section
-    className={`${styles.yPaddings} sm:pl-0 pl-0 w-screen h-screen sm:py-64`}
-  >
+  <section className={`${styles.yPaddings} sm:pl-0 pl-0 w-screen h-screen`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
