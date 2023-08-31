@@ -100,3 +100,7 @@ export const workContent = [
       'We support you towards ninja-level skills with sleek tools such as dry-runs, quizzes, and flashcards.',
   },
 ];
+
+export const teamContent = [
+  `"We won't share your answers with anyone (and won't ever tell you which friends said what about you)"`,
+];
