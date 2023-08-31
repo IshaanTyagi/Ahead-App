@@ -1,6 +1,10 @@
 # Ahead App
 
-https://github.com/IshaanTyagi/Ahead-App/assets/82907648/be4bcc4b-f2b7-45f9-9982-05acb320938d
+
+
+https://github.com/IshaanTyagi/Ahead-App/assets/82907648/2535424c-342d-4787-940b-8cae1f9fa52a
+
+
 
 This repo is a web application made using Next.js, Tailwind CSS, and Framer Motion animations. This repository showcases a visually appealing web application developed using the modern Next.js 13 framework. 
 
