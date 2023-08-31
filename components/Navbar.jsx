@@ -10,7 +10,7 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-8 fixed h-20 w-screen`}
+    className={`${styles.xPaddings} py-8 fixed h-20 w-screen z-20 bg-white opacity-10`}
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
@@ -20,7 +20,7 @@ const Navbar = () => (
         className="w-[24px] h-[24px] object-contain"
       />
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-black">
-        CURIOSITY
+        Ahead
       </h2>
       <img
         src="/menu.svg"

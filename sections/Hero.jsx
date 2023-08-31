@@ -6,9 +6,7 @@ import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const Hero = () => (
-  <section
-    className={`${styles.yPaddings} sm:pl-16 pl-6 w-screen h-screen sm:py-64`}
-  >
+  <section className="sm:py-64 xs:py-8 py-12 sm:pl-16 pl-6 w-screen h-screen">
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -18,14 +16,19 @@ const Hero = () => (
     >
       <div className="flex justify-center items-center flex-col relative z-10">
         <div className="flex justify-center items-center flex-col relative z-10">
-          <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-            CURIOSITY
+          <motion.h1
+            variants={textVariant(1.1)}
+            className={`${styles.heroHeading} w-[40vw]`}
+          >
+            Ahead App
           </motion.h1>
           <motion.div
             variants={textVariant(1.2)}
             className="flex flex-row justify-center items-center"
           >
-            <h1 className={styles.heroHeading}>RUSH</h1>
+            <h1 className="w-[40vw] font-bold lg:text-[35px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] text-black">
+              Master your life by mastering emotions
+            </h1>
           </motion.div>
         </div>
         <motion.div
@@ -35,12 +38,12 @@ const Hero = () => (
           <img
             src="/app-store.svg"
             alt="app-store-download"
-            className="h-32 w-32"
+            className="h-32 w-32 cursor-pointer"
           />
           <img
             src="/play-store.svg"
             alt="play-store-download"
-            className="h-32 w-32"
+            className="h-32 w-32 cursor-pointer"
           />
         </motion.div>
       </div>

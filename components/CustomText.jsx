@@ -6,7 +6,7 @@ import { textVariant2, textContainer } from '../utils/motion';
 export const TypingText = ({ title, textStyles }) => (
   <motion.p
     variants={textContainer}
-    className={`font-normal text-[14px] text-secondary-white ${textStyles}`}
+    className={`font-normal text-[14px] text-secondary-white ${textStyles} gradient-text`}
   >
     {Array.from(title).map((letter, index) => (
       <motion.span variants={textVariant2} key={index}>
@@ -16,9 +16,13 @@ export const TypingText = ({ title, textStyles }) => (
   </motion.p>
 );
 
-export const TitleText = () => (
-  <h2>
-    They are more successful in their pursuits and make for inspiring leaders.
-    According to science, they earn $29k a year.
-  </h2>
+export const TitleText = ({ title, textStyles }) => (
+  <motion.h2
+    variants={textVariant2}
+    initial="hidden"
+    whileInView="show"
+    className={`mt-[8px] font-bold md:text-[40px] text-[20px] text-black ${textStyles}`}
+  >
+    {title}
+  </motion.h2>
 );
