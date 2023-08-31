@@ -1,5 +1,3 @@
-'use client';
-
 const NewFeatures = ({ title, bgColor, subtitle }) => {
   const styles = {
     background: `${bgColor}`,

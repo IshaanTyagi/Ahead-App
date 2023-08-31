@@ -1,6 +1,4 @@
-'use client';
-
-import styles from '../styles';
+import styles from '../../styles';
 
 const StartSteps = ({ text }) => (
   <div className={`${styles.flexCenter} flex-row`}>
